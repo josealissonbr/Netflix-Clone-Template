@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Netflix clone template</string>
+
+    <string name="login_btn">Login</string>
+    <string name="exit_toast">Pressionar voltar novamente para sair.</string>
+
+</resources>

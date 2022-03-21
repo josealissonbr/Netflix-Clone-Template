@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="corFundo">#000000</color>
+    <color name="inputColor">#716F6F</color>
+    <color name="SubmitBtn">#CA4336</color>
+
+</resources>

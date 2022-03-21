@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginEnd="38dp"
+            android:ems="10"
+            android:text="E-mail"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/netflix_logo" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress6"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginEnd="38dp"
+            android:ems="10"
+            android:hint="exemplo@gmail.com"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/inputColor"
+            android:textColorHint="@color/inputColor"
+            android:textSize="22dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TextViewpassword"
+            android:layout_width="0dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginEnd="38dp"
+            android:ems="10"
+            android:text="Password"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress6" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="0dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginEnd="38dp"
+            android:ems="10"
+            android:hint="******"
+            android:inputType="textPassword"
+            android:textColor="@color/inputColor"
+            android:textColorHint="@color/inputColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TextViewpassword" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="181dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="88dp"
+            android:text="@string/login_btn"
+            android:textColor="#FFFFFF"
+            android:theme="@style/CardView.Dark"
+            app:backgroundTint="@color/SubmitBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
