@@ -2,13 +2,15 @@ package com.techprimedev.netflixclonetemplate;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity{
+public class LoginActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,5 +36,12 @@ public class MainActivity extends AppCompatActivity{
                 doubleBackToExitPressedOnce=false;
             }
         }, 2000);
+    }
+
+    public void switchToProfiles(View view) {
+        //Mudar o Activity
+
+        Intent switchActivityIntent = new Intent(this, ProfilesActivity.class);
+        startActivity(switchActivityIntent);
     }
 }

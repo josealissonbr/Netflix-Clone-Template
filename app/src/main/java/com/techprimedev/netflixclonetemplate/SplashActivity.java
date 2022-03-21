@@ -57,7 +57,7 @@ public class SplashActivity extends AppCompatActivity {
     private void initLogin() {
         //Mudar o Activity
 
-        Intent switchActivityIntent = new Intent(this, MainActivity.class);
+        Intent switchActivityIntent = new Intent(this, LoginActivity.class);
         startActivity(switchActivityIntent);
     }
 }

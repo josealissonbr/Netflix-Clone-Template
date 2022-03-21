@@ -101,6 +101,7 @@
             android:layout_width="181dp"
             android:layout_height="45dp"
             android:layout_marginTop="88dp"
+            android:onClick="switchToProfiles"
             android:text="@string/login_btn"
             android:textColor="#FFFFFF"
             android:theme="@style/CardView.Dark"
