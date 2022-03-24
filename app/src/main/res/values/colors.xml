@@ -3,5 +3,8 @@
     <color name="corFundo">#000000</color>
     <color name="inputColor">#716F6F</color>
     <color name="SubmitBtn">#CA4336</color>
+    <color name="corFundoPlayer">#333232</color>
+    <color name="labelColor">#E7E4E4</color>
+    <color name="secondLabelColor">#808080</color>
 
 </resources>
